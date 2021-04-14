@@ -168,26 +168,26 @@ class Config extends StateBase {
 
     initStatics() {
         this._js = [
-            '/node_modules/leaflet/dist/leaflet-src.js',
-            '/node_modules/leaflet-formbuilder/Leaflet.FormBuilder.js',
-            '/src/front/Core.js',
-            '/config/',
+            '../node_modules/leaflet/dist/leaflet-src.js',
+            '../node_modules/leaflet-formbuilder/Leaflet.FormBuilder.js',
+            '../src/front/Core.js',
+            '../config/',
             './config/',
-            '/src/front/Autocomplete.js',
-            '/src/front/DataInspector.js',
-            '/src/front/MetatilesBounds.js',
-            '/src/front/Sidebar.js',
-            '/src/front/Toolbar.js',
-            '/src/front/FormBuilder.js',
-            '/src/front/Settings.js',
-            '/src/front/Command.js',
-            '/src/front/Map.js'
+            '../src/front/Autocomplete.js',
+            '../src/front/DataInspector.js',
+            '../src/front/MetatilesBounds.js',
+            '../src/front/Sidebar.js',
+            '../src/front/Toolbar.js',
+            '../src/front/FormBuilder.js',
+            '../src/front/Settings.js',
+            '../src/front/Command.js',
+            '../src/front/Map.js'
         ];
         this._css = [
-            '/node_modules/leaflet/dist/leaflet.css',
-            '/src/front/Sidebar.css',
-            '/src/front/Toolbar.css',
-            '/src/front/Core.css'
+            '../node_modules/leaflet/dist/leaflet.css',
+            '../src/front/Sidebar.css',
+            '../src/front/Toolbar.css',
+            '../src/front/Core.css'
         ];
     };
 

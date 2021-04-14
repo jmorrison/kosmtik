@@ -42,7 +42,7 @@ class BaseExporters {
         config.registerExporter('png32', path.join(__dirname, 'PNG.js'));
         config.registerExporter('png256', path.join(__dirname, 'PNG.js'));
         config.on('parseopts', this.parseOpts);
-        config.addJS('/src/plugins/base-exporters/front/export.js');
+        config.addJS('../src/plugins/base-exporters/front/export.js');
     };
 
     parseOpts(e) {

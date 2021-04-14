@@ -1,7 +1,7 @@
 class Hash {
     constructor(config) {
-        config.addJS('/node_modules/leaflet-hash/leaflet-hash.js');
-        config.addJS('/hash.js');
+        config.addJS('../node_modules/leaflet-hash/leaflet-hash.js');
+        config.addJS('../hash.js');
         config.on('server:init', this.attachRoutes.bind(this));
     };
 
